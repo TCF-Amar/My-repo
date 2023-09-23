@@ -2,9 +2,10 @@
 #include <string>
 #include <ctime>
 using namespace std;
-int delay(int millisecond)
+// delay function
+int delay(int msec)
 {
-    clock_t gole = millisecond + clock();
+    clock_t gole = msec + clock();
     while (gole > clock())
         ;
     return 1;
@@ -21,6 +22,7 @@ int main()
         for (int j = 0; name[i] >= str[j]; j++)
         {
             cout << res << str[j] << endl;
+            // call delay function
             delay(2 * 100);
         }
         res += name[i];

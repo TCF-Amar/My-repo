@@ -1,2 +1,3 @@
 # My-repo
-This i smy Repository
+This is my Repository
+Author - Amarjeet

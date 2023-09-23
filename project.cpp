@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 #include <string>
 #include <ctime>
 using namespace std;
@@ -25,6 +26,7 @@ int main()
         }
         res += name[i];
     }
+    getch();
 
     return 0;
 }

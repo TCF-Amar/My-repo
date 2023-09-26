@@ -118,6 +118,7 @@ void dv(float a, float b)
     cout << a << " / " << b << " = " << a / b << endl;
 }
 void sqroot(double a)
+
 {
     cout << "Enter Your Number : ";
     cin >> a;
